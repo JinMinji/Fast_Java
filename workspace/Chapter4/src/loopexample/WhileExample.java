@@ -1,0 +1,20 @@
+package loopexample;
+
+public class WhileExample {
+	
+	public static void main(String[] args) {
+		
+		int num = 1;
+		int sum = 0;
+		
+		while (num <= 10) {
+			sum += num;
+			num++;
+		}
+		
+		// while(true) //무한루프
+		System.out.println(sum);
+		System.out.println(num);
+	}
+
+}

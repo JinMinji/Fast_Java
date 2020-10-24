@@ -17,9 +17,11 @@ public class IfExample2 {
 		}
 		else if (age < 14) {
 			charge = 1500;
+			System.out.println("초등생");
 		}
 		else if (age < 20) {
 			charge = 2000;
+			System.out.println("중고등생");
 		}
 		else {
 			charge = 3000;

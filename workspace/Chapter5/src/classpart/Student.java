@@ -13,7 +13,7 @@ public class Student { //class파일에 public class는 단 하나, class이름과 동일해�
 	// 멤버 변수 = 속성
 	
 	public void showStudentInfo() { //반환하는 값이 없으면, void. 매개변수 넣을 수 있음
-		System.out.println(studentName + "," + address);
+		System.out.println(studentName + ", " + address);
 	}
 }
 
