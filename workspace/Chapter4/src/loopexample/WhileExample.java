@@ -1,20 +1,36 @@
 package loopexample;
 
+import java.util.Scanner;
+
 public class WhileExample {
 	
 	public static void main(String[] args) {
 		
-		int num = 1;
+//		int num = 1;
+//		int sum = 0;
+//		
+//		while (num <= 10) {
+//			sum += num;
+//			num++;
+//		}
+//		
+//		// while(true) //公茄风橇
+//		System.out.println(sum);
+//		System.out.println(num);
+		
+		int input;
 		int sum = 0;
 		
-		while (num <= 10) {
-			sum += num;
-			num++;
+		Scanner scanner = new Scanner(System.in);
+		input = scanner.nextInt();
+		
+		while(input != 0) {
+			sum += input;
+			input = scanner.nextInt();
 		}
 		
-		// while(true) //公茄风橇
 		System.out.println(sum);
-		System.out.println(num);
+		
 	}
 
 }
